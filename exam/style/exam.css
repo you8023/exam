@@ -712,6 +712,7 @@
 	float: left;
 	margin-left: 39px;
 	overflow: visible;
+	z-index:1;
 }
 .redSide,
 .greenSide,
