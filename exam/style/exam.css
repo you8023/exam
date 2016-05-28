@@ -1,0 +1,777 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+	text-align: center;
+	list-style-type: none;
+}
+#container {
+	background-color: #f7f7f7;
+	width: 100%;
+}
+#headBanner {
+	background-color: #343434;
+	height: 37px;
+	width: 100%;
+}
+.middle {
+	width: 1005px;
+	margin: 0 auto;
+}
+#bannerLeft {
+	float: left;
+}
+.bannerLeftADiv {
+	width: 88px;
+	float: left;
+	height: 37px;
+}
+.bannerLeftA {
+	color: #949494;
+	line-height: 37px;
+}
+.bannerLeftA:hover {
+	color: #cccccc;
+}
+#bannerRight {
+	float: right;
+	width: 470px;
+}
+.bannerRightA,
+.anotherBannerRightA {
+	color: #949494;
+	height: 37px;
+	color: #949494;
+	margin-left: 10px;
+	float: left;
+	line-height: 37px;
+	display: inline-block;
+}
+.bannerRightA {
+	width: 92px;
+}
+.bannerRightA a,
+.anotherBannerRightA a{
+	color: #949494;
+	line-height: 37px;
+}
+.anotherBannerRightA {
+	width: 58px;
+}
+.bannerRightA:hover,
+.anotherBannerRightA:hover {
+	background-color: #fff;
+	color: #a9a9a9;
+}
+#nav {
+	float: left;
+}
+#firstNav,
+#secondNav {
+	display: none;
+	position: relative;
+	width: 90px;
+}
+#thirdNav {
+	display: none;
+	position: relative;
+	width: 56px;
+}
+#first:hover #firstNav {
+	display: block;
+}
+#second:hover #secondNav {
+	display: block;
+}
+#third:hover #thirdNav {
+	display: block;
+}
+.firstLi {
+	width: 100%;
+	height: 28px;
+	border: 1px solid #a9a9a9;
+	line-height: 28px;
+	background-color: #fff;
+}
+.secondLi {
+	width: 100%;
+	height: 33px;
+	border: 1px solid #a9a9a9;
+	border-top: none;
+	line-height: 33px;
+	background-color: #fff;
+}
+.thirdLi {
+	width: 100%;
+	height: 31px;
+	border: 1px solid #a9a9a9;
+	border-top: none;
+	line-height: 31px;
+	background-color: #fff;
+}
+#main {
+	background-color: #fff;
+	width: 1005px;
+	margin: 0 auto;
+}
+#redRock {
+	height: 90px;
+	width: 980px;
+	margin: 0 auto;
+}
+#redRocker {
+	height: 90px;
+	width: 980px;
+	margin: 0 auto;
+}
+#h {
+	margin-top: 13px;
+	float: left;
+	margin-left: 20px;
+	height: 78px;
+	width: 120px;
+}
+
+#weather,
+#weatherIcon {
+	margin-top: 34px;
+	float: left;
+	height: 54px;
+}
+.weatherIco {
+	font-size: 50px;
+	color: #a9a9a9;
+}
+#h1 {
+	color: red;
+	font-size: 28px;
+	line-height: 78px;
+}
+#weather {
+	margin-left: 20px;
+	width: 88px;
+}
+#time,
+#place {
+	line-height: 20px;
+	color: #a9a9a9;
+}
+.line {
+	height: 1px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #a9a9a9;
+}
+#aDiv {
+	width: 980px;
+	margin: 0 auto;
+	height: 70px;
+}
+.aLittleDiv {
+	width: 310px;
+	height: 70px;
+	float: right;
+	padding-left: 10px;
+}
+.middleLine {
+	width: 1px;
+	height: 40px;
+	margin-top: 15px;
+	float: right;
+	margin-right: 8px;
+	background-color: #a9a9a9;
+}
+.aLittle {
+	width: 75px;
+	height: 35px;
+	float: left;
+}
+.aLittle a {
+	color: #494949;
+	line-height: 35px;
+	float: left;
+}
+.aLittle a:hover {
+	color: red;
+}
+.activity {
+	width: 100%;
+	height: 427px;
+	margin: 0 auto;
+}
+.activityLeft {
+	width: 731px;
+	margin-left: 20px;
+	height: 427px;
+	float: left;
+	clear: left;
+}
+.activityRight {
+	width: 230px;
+	/*margin-left: 20px;*/
+	height: 427px;
+	float: right;
+	clear: right;
+	/*position: relative;*/
+	/*top: -745px;*/
+}
+.redH2Div {
+	height: 34px;
+}
+.redH2 {
+	font-size: 16px;
+	line-height: 34px;
+	color: #f2654d;
+	border-bottom: 2px solid #f2654d;
+	float: left;
+}
+.more {
+	color: #a9a9a9;
+	float: right;
+	line-height: 36px;
+	padding-right: 10px;
+}
+#activityPhoto {
+	width: 581px;
+	height: 354px;
+}
+.photo1 {
+	float: left;
+	clear: left;
+	margin-top: 22px;
+}
+.photo2 {
+	float: right;
+	margin-top: -16px;
+}
+.photo3 {
+	/*float: right;*/
+	margin-top: 1px;
+	position: relative;
+	top: -40px;
+}
+.h3 {
+	color: #fff;
+	font-size: 16px;
+	line-height: 40px;
+	padding-left: 10px;
+}
+#firstH3 {
+	position: relative;
+	left: -330px;
+	bottom: -335px;
+}
+#secondH3 {
+	position: relative;
+	left: -50px;
+	bottom: 40px;
+}
+#thirdH3 {
+	position: relative;
+	left: 90px;
+	top: -85px;
+}
+.colorDiv {
+	width: 150px;
+	height: 354px;
+	float: right;
+	clear: right;
+	position: relative;
+	top: -330px;
+}
+.block {
+	width: 100%;
+	height: 118px;
+}
+#focus {
+	background-color: #ffa75c;
+}
+#act {
+	background-color: #f2654d;
+}
+#info {
+	background-color: #f3684f;
+}
+.smile {
+	width: 100%;
+	height: 110px;
+}
+.smile img {
+	float: left;
+	clear: left;
+	margin-top: 9px;
+}
+.smileRight {
+	width: 100px;
+	margin-top: 9px;
+	float: right;
+	margin-right: 10px;
+}
+.smileH {
+	font-size: 16px;
+	float: left;
+}
+.detail {
+	color: #a9a9a9;
+	line-height: 20px;
+	float: left;
+}
+.article {
+	width: 100%;
+}
+.articleH {
+	font-size: 16px;
+	margin-top: 18px;
+	float: left;
+	clear: left;
+}
+.articleLeft {
+	float: left;
+	clear: left;
+	width: 357px;
+	/*padding-left: 10px;*/
+}
+.articleRight {
+	float: right;
+	width: 357px;
+}
+.articleLeft a,
+.articleRight a,
+.detailQ a {
+	font-size: 14px;
+	line-height: 34px;
+	color: black;
+	display: inline-block;
+	float: left;
+}
+.detailQ {
+	width: 100%;
+}
+.greenH2 {
+	font-size: 16px;
+	line-height: 34px;
+	color: #96e5b4;
+	border-bottom: 2px solid #96e5b4;
+	float: left;
+}
+.image1,
+.image3 {
+	float: left;
+	clear: left;
+}
+.image2,
+.image4 {
+	float: right;
+	clear: right;
+}
+.image1 {
+	margin-top: 20px;
+}
+.image2 {
+	margin-top: 3px;
+}
+.image3 {
+	margin-top: -15px;
+}
+.image4 {
+	margin-top: -33px;
+}
+.doubi,
+.firstDoubi,
+.secondDoubi,
+.thirdDoubi {
+	position: relative;
+	color: #fff;
+	font-size: 16px;
+}
+.doubi {
+	top: 170px;
+	left: -350px;
+}
+.firstDoubi {
+	top: -30px;
+	left: 100px;
+}
+.secondDoubi {
+	top: 135px;
+	left: -350px;
+}
+.thirdDoubi {
+	top: -30px;
+	left: 100px;
+}
+.anotherColorDiv {
+	width: 150px;
+	height: 354px;
+	float: right;
+	clear: right;
+	position: relative;
+	top: -355px;
+}
+#photos {
+	background-color: #48c97b;
+}
+#novel {
+	background-color: #4aca7e;
+}
+#movie {
+	background-color: #ff9944;
+}
+.films {
+	width: 100%;
+	height: 150px;
+	margin-top: 16px;
+}
+.filmDiv {
+	width: 242px;
+	height: 142px;
+	float: left;
+}
+.filmsDiv img {
+	float: left;
+}
+.fileInfo {
+	float: right;
+	clear: right;
+	width: 110px;
+	/*margin-right: 20px;*/
+}
+.filmName {
+	font-size: 14px;
+	float: left;
+}
+.grades {
+	font-size: 16px;
+	line-height: 25px;
+	color: #999999;
+	float: left;
+}
+.actors,
+.sort,
+.date {
+	line-height: 20px;
+	color: #999999;
+	float: left;
+}
+.gradesSpan {
+	color: #e96b54;
+	font-size: 16px;
+	line-height: 20px;
+}
+.actorsSpan,
+.sortSpan,
+.dateSpan {
+	color: black;
+}
+.filmLeft {
+	float: left;
+	width: 60px;
+}
+.filmRight {
+	float: right;
+	width: 70px;
+}
+.filmLeft a {
+	font-size: 14px;
+	line-height: 34px;
+	color: #999999;
+	display: inline-block;
+	float: left;
+}
+.filmRight a {
+	font-size: 14px;
+	line-height: 34px;
+	color: #999999;
+	display: inline-block;
+	float: right;
+}
+#product {
+	background-color: #ff9944;
+}
+#life {
+	background-color: #ffbd27;
+}
+#learn {
+	background-color: #ffbe27;
+}
+.orangeH2 {
+	font-size: 16px;
+	line-height: 34px;
+	color: #ffb400;
+	border-bottom: 2px solid #ffb400;
+	float: left;
+}
+.Photo2 {
+	float: right;
+	margin-top: 22px;
+}
+.Photo3 {
+	/*float: right;*/
+	margin-top: 1px;
+	position: relative;
+	/*top: -40px;*/
+}
+.activityAnother {
+	height: 300px;
+	width: 100%;
+	margin: 0 auto;
+}
+.activityLeftAnother {
+	width: 731px;
+	margin-left: 20px;
+	height: 300px;
+	float: left;
+	clear: left;
+}
+.activityRightAnother {
+	width: 230px;
+	/*margin-left: 20px;*/
+	height: 300px;
+	float: right;
+	clear: right;
+	/*position: relative;*/
+	/*top: -745px;*/
+}
+.articleLeftAnother {
+	float: left;
+	clear: left;
+	width: 310px;
+	/*padding-left: 10px;*/
+}
+.articleMiddle {
+	float: left;
+	width: 100px;
+	/*padding-left: 10px;*/
+}
+.articleRightAnother {
+	float: right;
+	width: 100px;
+}
+.articleLeftAnother a
+{
+	font-size: 14px;
+	line-height: 34px;
+	color: black;
+	display: inline-block;
+	float: left;
+	clear: left;
+}
+.articleRightAnother a,
+.articleMiddle a {
+	line-height: 34px;
+	color: #999999;
+	display: inline-block;
+	float: left;
+}
+.articleRightAnother a {
+	font-size: 14px;
+}
+.appDiv {
+	width: 63px;
+	margin-right: 16px;
+	float: left;
+	margin-top: 19px;
+}
+.appInfo {
+	line-height: 30px;
+}
+.firstApp {
+	clear: left;
+}
+.lastApp {
+	margin-right: 0;
+}
+.blueH2 {
+	font-size: 16px;
+	line-height: 34px;
+	color: #59c8d4;
+	border-bottom: 2px solid #59c8d4;
+	float: left;
+}
+.filmInfo {
+	float: right;
+	clear: right;
+	width: 137px;
+	margin-right: 10px;
+}
+.actorsP,
+.sortP,
+.dateP {
+	line-height: 20px;
+	color: #999999;
+	float: left;
+}
+.articleLeftA {
+	float: left;
+	clear: left;
+	width: 400px;
+	/*padding-left: 10px;*/
+}
+.articleRightA {
+	float: right;
+	width: 110px;
+	padding-right: 10px;
+}
+.articleLeftA a,
+.articleRightA a {
+	font-size: 14px;
+	line-height: 27px;
+	display: inline-block;
+	float: left;
+}
+.articleRightA a {
+	color: #666666;
+}
+.articleLeftA a {
+	color: #333333;
+}
+.activityReport {
+	height: 480px;
+	width: 100%;
+	margin: 0 auto;
+}
+.activityLeftReport {
+	height: 480px;
+	width: 731px;
+	margin-left: 20px;
+	float: left;
+	clear: left;
+}
+#foot {
+	width: 100%;
+	background-color: #333333;
+	height: 264px;
+	position: relative;
+	overflow: hidden;
+}
+.footInfo {
+	margin: 0 auto;
+}
+.lastA {
+	margin: 0 auto;
+	padding-top: 69px;
+}
+.lastA a {
+	font-size: 14px;
+	color: #999999;
+	line-height: 27px;
+	margin-right: 39px;
+}
+.lastA a:hover {
+	color: #fff;
+}
+.address,
+.contact {
+	color: #999999;
+	line-height: 27px;
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.vacant {
+	width: 100%;
+	height: 20px;
+	background-color: transparent;
+}
+.blockIco {
+	font-size: 45px;
+	color: #fff;
+	padding-top: -20px;
+}
+.blockP {
+	color: #fff;
+	font-size: 16px;
+}
+.contactIcon {
+	margin: 0 auto;
+	width: 210px;
+	height: 50px;
+	margin-top: 20px;
+}
+.contactIco {
+	font-size: 48px;
+	color: #fff;
+	float: left;
+	margin-right: 25px;
+}
+.lastIco {
+	margin-right: 0;
+}
+.sideNav {
+	position: fixed;
+	/*vertical-align: middle;*/
+	margin-top: 70px;
+	width: 95px;
+	height: 484px;
+	float: left;
+	margin-left: 39px;
+	overflow: visible;
+}
+.redSide,
+.greenSide,
+.yellowSide,
+.blueSide,
+.graySide {
+	width: 95px;
+	height: 95px;
+	margin-top: 1px;
+}
+.redSide {
+	background-color: #ee5b40;
+}
+.greenSide {
+	background-color: #4dcd84;
+}
+.yellowSide {
+	background-color: #ffc32b;
+}
+.blueSide {
+	background-color: #02b5c6;
+}
+.graySide {
+	background-color: #aeaeae;
+}
+.sideIcon,
+.bigIcon {
+	font-size: 40px;
+	
+	/*margin-top: 28px;*/
+	color: #fff;
+}
+.sideIcon {
+	padding-left: 20px;
+	line-height: 95px;
+}
+.bigIcon {
+	padding-left: 5px;
+	padding-top: 10px;
+	line-height: 75px;
+}
+.sideP {
+	float: right;
+	margin-right: 5px;
+	color: #fff;
+	
+}
+.sideP {
+	margin-top: 80px;
+}
+.lastIconP {
+	float: right;
+	margin-right: 5px;
+	color: #fff;
+	/*margin-top: 80px;*/
+}
+@font-face {font-family: 'iconfont';
+    src: url('../icon/iconfont.eot'); /* IE9*/
+    src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
